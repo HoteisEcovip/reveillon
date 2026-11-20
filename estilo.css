@@ -48,7 +48,7 @@ img { display: block; max-width: 100%; height: auto; }
 @media (prefers-reduced-motion: reduce) { .fogo { animation: none; opacity: .35; } }
 .capa__topo { position: relative; z-index: 1; padding: 28px max(16px, calc((100% - 1080px) / 2)) 0; }
 .capa__logo { width: 140px; }
-.capa__texto { position: relative; z-index: 1; margin: auto auto 0; width: min(880px, 100% - 32px); padding: 90px 0 84px; text-align: center; }
+.capa__texto { position: relative; z-index: 1; margin: auto; width: min(880px, 100% - 32px); padding: 90px 0 84px; text-align: center; }
 .selo { display: inline-block; padding: 8px 18px; border-radius: 99px; border: 1px solid rgba(217,183,106,.6); color: var(--ouro-claro); font-size: 13px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
 .capa h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: clamp(46px, 8vw, 92px); line-height: 1; margin-top: 22px; }
 .capa h1 em { font-style: italic; color: var(--ouro); }
@@ -98,6 +98,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* rodapé */
 .rodape { padding: 54px 16px; background: var(--noite); color: rgba(255,255,255,.75); text-align: center; font-size: 15px; }
+.rodape__titulo { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; font-weight: 600; color: #fff; margin-bottom: 4px; }
 .rodape img { width: 120px; margin: 0 auto 18px; }
 .rodape .miudo { margin-top: 6px; font-size: 13px; color: rgba(255,255,255,.5); }
 
