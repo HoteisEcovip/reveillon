@@ -110,3 +110,17 @@ img { display: block; max-width: 100%; height: auto; }
   .rest__corpo { grid-template-columns: 1fr; }
   .acoes, .acoes .botao { width: 100%; }
 }
+
+/* segunda indicação em diante: espaço entre cartões */
+.rest + .rest { margin-top: 28px; }
+.rest__foto--costelao { object-position: 50% 45%; }
+/* vantagem para quem vai pela indicação */
+.vantagem { display: flex; align-items: center; gap: 14px; margin: 26px 44px 0; padding: 16px 20px; border-radius: 16px; background: linear-gradient(90deg, #FBF1D6, #F6E7BE); color: var(--noite); font-size: 17px; }
+.vantagem strong { font-weight: 700; }
+.vantagem__ic { flex: none; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--ouro); color: var(--noite); }
+.vantagem__ic svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.ingresso p { font-family: 'Montserrat', Arial, sans-serif; font-size: 17px; font-weight: 500; }
+.ingresso b { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; font-weight: 600; margin-right: 6px; }
+@media (max-width: 820px) {
+  .vantagem { margin: 20px 24px 0; font-size: 16px; }
+}
